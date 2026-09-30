@@ -108,7 +108,7 @@ button:hover {
   <p>Untuk seseorang yang spesial di hidupku 💗</p>
 
   <!-- Ganti foto.jpg dengan nama foto kamu -->
-  <img src="foto.jpg" class="foto" alt="Foto kita">
+  <img src="img.jpg" class="foto" alt="Foto kita">
 
   <h2>Hai, Sayang! 🌷</h2>
 
