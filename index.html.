@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
+  font-family: Georgia, serif;
   background: linear-gradient(135deg, #ffc0cb, #ff69b4);
   min-height: 100vh;
   display: flex;
@@ -25,7 +25,7 @@ body {
 }
 
 .card {
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.92);
   width: 90%;
   max-width: 420px;
   padding: 25px;
@@ -103,52 +103,62 @@ button:hover {
 
 <div class="card">
 
-  <h1>Happy Girlfriend Day ❤️</h1>
+<h1>Happy Girlfriend Day ❤️</h1>
 
-  <p>Untuk seseorang yang spesial di hidupku 💗</p>
+<p>Untuk seseorang yang spesial di hidupku 💗</p>
 
-  <!-- Ganti foto.jpg dengan nama foto kamu -->
-  <img src="img.jpg" class="foto" alt="Foto kita">
+<img src="img.jpg" class="foto" alt="Foto kita">
 
-  <h2>Hai, Sayang! 🌷</h2>
+<h2>Hai, Sayang! 🌷</h2>
 
-  <p>
-    Hari ini adalah hari spesial untuk seseorang
-    yang selalu membuat hari-hariku lebih berwarna.
-  </p>
+<p>
+Hari ini adalah hari spesial untuk seseorang
+yang selalu membuat hari-hariku lebih berwarna.
+</p>
 
-  <button onclick="bukaPesan()">
-    Klik di sini ❤️
-  </button>
+<button onclick="bukaPesan()">
+Klik di sini ❤️
+</button>
 
-  <div id="pesan">
-    <h2>💌 Pesan Untukmu</h2>
+<div id="pesan">
 
-    <p>
-      Terima kasih sudah hadir dalam hidupku.
-      Aku bersyukur bisa mengenal kamu.
-      Semoga kita selalu bisa saling menghargai,
-      mendukung, dan menciptakan banyak kenangan indah.
-      <br><br>
-      You are special to me! ❤️
-      <br><br>
-      Happy Girlfriend Day! 🌸
-    </p>
+<h2>💌 Pesan Untukmu</h2>
 
-    <h2>❤️❤️❤️</h2>
-  </div>
+<p>
+Terima kasih sudah hadir dalam hidupku.
+
+Aku bersyukur bisa mengenal kamu.
+
+Semoga kita selalu bisa saling menghargai,
+mendukung, dan menciptakan banyak kenangan indah.
+
+<br><br>
+
+You are special to me! ❤️
+
+<br><br>
+
+Happy Girlfriend Day! 🌸
+</p>
+
+<h2>❤️❤️❤️</h2>
+
+</div>
 
 </div>
 
 <script>
+
 function bukaPesan() {
   document.getElementById("pesan").style.display = "block";
 }
 
 function buatHati() {
   const hati = document.createElement("div");
+
   hati.className = "hati";
   hati.innerHTML = "❤️";
+
   hati.style.left = Math.random() * 100 + "vw";
   hati.style.fontSize = (15 + Math.random() * 20) + "px";
   hati.style.animationDuration = (3 + Math.random() * 4) + "s";
@@ -161,6 +171,7 @@ function buatHati() {
 }
 
 setInterval(buatHati, 500);
+
 </script>
 
 </body>
